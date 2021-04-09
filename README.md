@@ -1,24 +1,23 @@
-# egor_shop
+## JSON-Server prepare
+
+1. Install JSON-Server:
+
+    > npm install -g json-server
+
+2. Start server from ..\Shop_test\src
+
+    > json-server --watch all items.json
+    
 
 ## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Install packages at ..\Shop_test\:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+    > npm install
 
-### Lints and fixes files
-```
-npm run lint
-```
+2. Start project ..\Shop_test\:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    > npm run serve
+    
+
+
